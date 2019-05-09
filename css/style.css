@@ -1,0 +1,59 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+/*  CLEAR */
+
+.clear {
+    clear: both;
+}
+
+
+/* HEADER */
+
+header {
+    color: white;
+    background: black;
+    height: auto;
+    padding-bottom: 15px;
+}
+
+nav {
+    box-sizing: content-box;
+    display: flex;
+    margin: 0 auto;
+    width: 80vw;
+    justify-content: space-between;
+}
+
+.brand-logo {
+    width: auto;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.brand-logo h1 {
+    margin: 0;
+    padding-top: 10px;
+}
+
+.brand-logo p {
+    margin: 0;
+    padding-top: -5px;
+    font-size: 15px;
+}
+
+.main-menu {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+
+li {
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+}
