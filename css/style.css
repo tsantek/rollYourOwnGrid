@@ -87,6 +87,12 @@ article {
     padding: 5px;
 }
 
+.articles a {
+    float: right;
+    padding: 5px;
+    color: orange;
+}
+
 
 /*  FOOTER */
 
